@@ -77,7 +77,7 @@ const Register = () => {
             });
         });
     } catch (error) {
-      Alert.alert("Error", "Failed to register. Please try again.");
+      Alert.alert("Error", "Failed to register. Please try again."+ error);
     }
   };
   const handleNavigateToLogin = () => {
