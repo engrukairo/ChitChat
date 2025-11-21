@@ -424,8 +424,9 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
-    borderRadius: 10,
+    borderRadius: 50,
     marginTop: 8,
+    padding: 4,
   },
   selector: {
     width: "32%",
@@ -434,7 +435,7 @@ const styles = StyleSheet.create({
     borderColor: "white",
     justifyContent: "center",
     alignItems: "center",
-    borderRadius: 10,
+    borderRadius: 50,
   },
   selectorText: {
     color: "#3578C1",
